@@ -40,5 +40,26 @@ public class Main {
 
         //ternary
         System.out.println(1 > 2 ? "betul" : "salah");
+
+        //Looping
+        for (int i = 0; i < 3 ; i++) {
+
+        }
+
+        //Break & Continue
+        for (int i = 0; i < 100; i++) {
+            if (i % 2 == 1) continue;
+            if (i == 64) break;
+            System.out.println("Nomor " + i);
+        }
+
+        //foreach
+        String[] data = {null, "nano", "leinz", "gustavo", "fring"};
+
+        for (String nama : data) {
+            System.out.println("My name is "+nama);
+        }
+
+
     }
 }
